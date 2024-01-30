@@ -1,0 +1,59 @@
+.update-popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px); /* Add background blur */
+}
+  
+.update-popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ortala */
+}
+
+.update-popup form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Formu 100% genişliğinde yap */
+}
+
+.update-popup label {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Label'ı 100% genişliğinde yap */
+}
+
+.update-popup input {
+    padding: 8px;
+    margin-bottom: 15px;
+    
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: space-between; /* Butonları aralarında boşluk bırakarak ortala */
+    width: 100%; /* Popup butonları 100% genişliğinde yap */
+}
+
+.update-popup button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.update-button{
+    background-color: coral ;
+}
+
+.update-button:hover{
+    background-color: sandybrown;
+}
